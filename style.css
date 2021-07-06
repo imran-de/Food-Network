@@ -50,3 +50,53 @@ ul.navbar-nav li.nav-item a.nav-link{
     letter-spacing: 1px;
     font-weight: 900;
 }
+/* Top banner */
+.top-banner{
+    width: 90%;
+    margin: 10px auto;
+}
+.d-flex{
+    display: flex;
+}
+.w-50{
+    width: 50%;
+    float: left;
+}
+.banner-title{
+    padding-top: 80px;
+}
+.banner-title h1{
+    font-size: 40px;
+    line-height: 30px;
+}
+.color-tomato{
+    color: tomato;
+}
+.button-box{
+    margin-top: 40px;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    background: linear-gradient(90deg,orange,tomato,red);
+}
+.text-center{
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+.top-right-image {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.top-right-image img{
+    width: 80%;
+}
+
+.br{
+    border: 1px solid black;
+}
