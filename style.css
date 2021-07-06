@@ -5,3 +5,48 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Oswald', sans-serif;
 }
+/* NABVAR */
+.navbar{
+    background-color: #0984E3;
+    height: 60px;
+    border-bottom: 2px solid rgb(4, 126, 126);
+}
+.fixed-top{
+    position:sticky;
+    top: 0;
+}
+.navbar-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.navbar-brand{
+    height: 60px;
+}
+.navbar-brand-logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f8f6f6;
+}
+.navbar-content-end{
+    /* width: 80%; */
+    align-items: right;
+    text-align: right;
+}
+ul.navbar-nav{
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-nav li.nav-item{
+    padding: 10px 40px;
+    margin: 10px 0px;
+}
+ul.navbar-nav li.nav-item a.nav-link{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
