@@ -24,11 +24,13 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar-brand{
     height: 60px;
+    line-height: 60px;
 }
 .navbar-brand-logo{
     text-decoration: none;
     text-transform: uppercase;
     color: #f8f6f6;
+    font-weight: 900;
 }
 .navbar-content-end{
     /* width: 80%; */
@@ -50,6 +52,14 @@ ul.navbar-nav li.nav-item a.nav-link{
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 900;
+}
+.book-now{
+    background-color: green;
+    border-radius: 5px;
+}
+.book-now:hover{
+    background-color: #5c6f09;
+    color: green;
 }
 /* Top banner */
 .top-banner{
@@ -187,6 +197,14 @@ ul.navbar-nav li.nav-item a.nav-link{
     font-size: 48px;
     font-weight: 900;
 }
+.contact-image{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 17%;
+}
+.contact-image img{
+    vertical-align: middle;
+}
 .contact{
     width: 80%;
     margin: 40px;
@@ -229,6 +247,7 @@ ul.navbar-nav li.nav-item a.nav-link{
     color: whitesmoke;
     border-radius: 5px;
 }
+/* footer  */
 .footer{
     background-color: #0B0D17;
     color: whitesmoke;
